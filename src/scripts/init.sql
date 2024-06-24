@@ -1,5 +1,9 @@
 CREATE TABLE hospitales (
   id SERIAL PRIMARY KEY,
-  nombreHospital VARCHAR(255) UNIQUE,
-  description VARCHAR(255)
+  nombre VARCHAR(255),
+  fotourl TEXT,
+  especialidad TEXT,
+  nivel SMALLINT,
+  privado SMALLINT,
+  queAtiende TEXT
   );
